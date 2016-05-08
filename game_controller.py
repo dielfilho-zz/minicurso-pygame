@@ -14,9 +14,9 @@ pygame.init()
 screen = pygame.display.set_mode((900, 600), 0, 0)
 
 # Carregando as imagens que serão usadas no jogo...
-background_image = pygame.image.load("../images/background.png").convert()
-player_image = pygame.image.load("../images/ship.png").convert_alpha()
-asteroid_image = pygame.image.load("../images/asteroide_small.png") 
+background_image = pygame.image.load("images/background.png").convert()
+player_image = pygame.image.load("images/ship.png").convert_alpha()
+asteroid_image = pygame.image.load("images/asteroide_small.png") 
 
 # Criando o objeto do player e iniciando o x = 450, y =300, passando a imagem
 # da nave e dando 100 de vida.
